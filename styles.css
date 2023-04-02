@@ -6,9 +6,59 @@ h1 {
   text-align: center;
   padding: 20px;
 }
+h2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 0px;
+}
 
 button {
   display: block;
-  margin: auto;
+  margin: 10px auto;
   width: 30%;
+  font-size: x-large;
 }
+
+.scoreboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.score {
+  font-size: 1.5em;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vmin;
+  height: 30vmin;
+  border-radius: 50%;
+  background-color: pink;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.verb{
+  font-size: 1em;
+}
+.wld{
+  font-size: 1.5em;
+}
+
