@@ -42,23 +42,24 @@ button {
   font-size: 1.5em;
 }
 
-.circle {
+.circleOfLove {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vmin;
-  height: 30vmin;
+  width: 35vmin;
+  height: 35vmin;
   border-radius: 50%;
   background-color: pink;
   margin: 0 auto;
   margin-top: 30px;
+  font-size: 1.5em;
 }
 
 .verb{
   font-size: 1em;
 }
-.wld{
+.andTheWinnerIs{
   font-size: 1.5em;
 }
 
